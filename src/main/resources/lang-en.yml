@@ -1,0 +1,4 @@
+command-no-permission: "&cYou do not have permission for that command!"
+ride-no-permission: "&cYou do not have permission to ride!"
+version: "&d{plugin} v{version}."
+reload: "&d{plugin} v{version} reloaded config."

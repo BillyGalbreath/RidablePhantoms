@@ -1,0 +1,26 @@
+name: ${project.artifactId}
+main: ${project.groupId}.${project.artifactId}
+version: ${project.version}
+description: ${project.artifactId} Spigot/Paper Plugin
+author: BillyGalbreath
+api-version: 1.13
+
+commands:
+    ridablephantoms:
+        description: Reload config
+        usage: /<command> reload
+        aliases:
+        - rideablephantoms
+        - rideablephantom
+        - ridablephantom
+        - phantoms
+        - phantom
+        - rp
+
+permissions:
+    allow.phantom.ride:
+        description: Allow to ride phantoms
+        default: op
+    command.phantom.reload:
+        description: Allow to reload config
+        default: op

@@ -1,0 +1,14 @@
+# Language file (for translations)
+language-file: lang-en.yml
+
+# Speed modifiers to control speed of phantom riding
+speed-modifier: 1.0
+
+# How much gravity to apply when rider is not moving phantom forward (0.05 is default)
+dead-stick-gravity: 0.05
+
+# True to make the phantom take fall damage from dead-stick-gravity
+falling-hurts: true
+
+# Whether or not the phantom is immune to sunlight
+immune-to-sunlight: true
